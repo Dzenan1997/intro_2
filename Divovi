@@ -1,0 +1,39 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./Emoree_login_dashboard_files/style.css">
+    <link rel="stylesheet" href="./Emoree_login_dashboard_files/font.css">
+
+    <title>
+        Naslov
+    </title>
+</head>
+<body>
+<script>
+    var classes = ['wählen'], c;
+
+    for (c = 0; c < 7 * 9; ++c) classes.push(Math.floor(c / 7) + 5 + ['a', 'b', 'c', 'd', 'g', 'l', 'o'][c % 7]);
+
+    popup(1100,
+        '<div id="intro-container">' +
+        '<div id="left-intro-part">' +
+        '<h1 id="intro-heading" class="intro-text">Give Emoree <br/> Experience a Try</h1>' +
+        '<p id="intro-description" class="intro-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor  deserunt mollit anim id est</p>' +
+        '<p id="intro-question" class="intro-text">Was this helpful?</p>' +
+        '<div id="thumbs-container">' +
+        '<object type="image/svg+xml" data="lamijas_stuff/thumbs_up.svg"></object>' +
+        '<object type="image/svg+xml" data="lamijas_stuff/thumbs_down.svg"></object>' +
+        // '<img src="lamijas_stuff/thumbs_up.png"/>' +
+        // '<img src="lamijas_stuff/thumbs_down.png" />' +
+        '</div>' +
+        '</div>' +
+        '<div id="right-intro-part"></div>' +
+        '</div>'
+    );
+
+
+
+
+</script>
+
+</body>
+</html>

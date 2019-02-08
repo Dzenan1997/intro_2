@@ -1,0 +1,53 @@
+.wrapper
+{
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+.wrapper>*
+{
+    padding: 10px;
+    flex: 1 100;
+}
+.header
+{
+    background: tomato;
+
+}
+.footer
+{
+    background: lightgreen;
+
+
+}
+.main
+{
+    text-align: center;
+    background: deepskyblue;
+
+
+}
+.l
+{
+    background-color: lightgreen;
+
+
+
+}
+.k
+{
+    background-color: bisque;
+
+
+}
+
+
+
+@media all and(min-width: 600px) {
+    .asside { flex: 1 0 0;}
+}
+body
+{
+    padding: 2em;
+}

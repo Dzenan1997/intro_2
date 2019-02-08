@@ -1,0 +1,32 @@
+.flex-container
+{
+    margin:0;
+    padding: 0;
+    list-style: none;
+
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    -webkit-flex-flow: wrap-reverse;
+    justify-content: revert;
+
+}
+.flex-item
+{
+  background: #f40b1a;
+    padding: 15px;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+
+
+    line-height: 200px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+
+}

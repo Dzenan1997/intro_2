@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="flexdisp.css">
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="poopup" onclick="myfunction()">click me
+
+    <span class="popuptext" id="mypopup">popup text</span>
+
+  <script>
+
+      function myfunction()
+      {
+        var popup=document.getElementById("mypopup");
+        popup.classList.toggle("show");
+
+      }
+  </script>
+
+</div>
+
+</body>
+</html>
